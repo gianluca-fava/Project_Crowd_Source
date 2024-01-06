@@ -19,12 +19,12 @@ Genera un file .csv in cui vengono accoppiate 5 recensioni casuali ad ognuno dei
 Sistemare le 5 domande iniziali (ne mancano 1/2)
 
 Fare un jupiter Notebook che crea gli hit basato su df_HIT_reviews.csv -> l'insieme delle hits (15 hit) che devono esserer svolte da 15 worker, ogni worker deve rispondere alle 5 domande iniziali (di conoscenza) e poi deve rispondere alle seguenti doamnde per ognuna delle 5 review:
-  ● Affidabilità (reliability): the review is considered reliable, as opposed to reporting unreliable information.
-  ● Neutralità (neutrality): the review is expressed in objective terms, as opposed to resulting subjective or biased.
-  ● Comprensibilità (comprehensibility): the review is understandable/readable as opposed to difficult to understand.
-  ● Precisione (precision): the review is precise/specific, as opposed to vague.
-  ● Completezza (completeness): the review is complete as opposed to partial.
-  ● Informatività (informativeness): the review allows deriving useful information as opposed to well-known facts and/or tautologies.
+  - Affidabilità (reliability): the review is considered reliable, as opposed to reporting unreliable information.
+  - Neutralità (neutrality): the review is expressed in objective terms, as opposed to resulting subjective or biased.
+  - Comprensibilità (comprehensibility): the review is understandable/readable as opposed to difficult to understand.
+  - Precisione (precision): the review is precise/specific, as opposed to vague.
+  - Completezza (completeness): the review is complete as opposed to partial.
+  - Informatività (informativeness): the review allows deriving useful information as opposed to well-known facts and/or tautologies.
   
 Quindi bisogna crare un programma che crea automaticamente il json contente tutte le unit 
 
