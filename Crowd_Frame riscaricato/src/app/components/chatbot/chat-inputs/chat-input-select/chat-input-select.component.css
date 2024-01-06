@@ -1,0 +1,96 @@
+
+/* TODO(mdc-migration): The following rule targets internal classes of form-field that may no longer apply for the MDC version.*/
+.select .mat-form-field-infix {
+    padding: 0 !important;
+}
+/* TODO(mdc-migration): The following rule targets internal classes of select that may no longer apply for the MDC version.*/
+.select .mat-select-value {
+    padding-left: 1rem;
+}
+/* TODO(mdc-migration): The following rule targets internal classes of select that may no longer apply for the MDC version.*/
+.select .mat-select-arrow-wrapper {
+    padding-right: 0.5rem;
+}
+
+.select {
+    width: 100%;
+    height: 40px;
+    background-color: #f5f5f5;
+    color: #3f51b5;
+    border-radius: 10px;
+    padding: 0;
+    margin: 2px;
+}
+
+.optionsPanel {
+    margin-left: 33vw;
+}
+.optionsPanel mat-option.mat-mdc-option {
+    height: 2.5em !important;
+}
+.optionsPanel.mat-mdc-select-panel {
+    min-width: calc(25% + 32px) !important;
+    max-height: 40vh;
+}
+
+#select-component {
+    min-height: 68px;
+    align-items: center;
+}
+
+/* TODO(mdc-migration): The following rule targets internal classes of select that may no longer apply for the MDC version.*/
+#select-component .mat-select-value-text {
+    font-weight: 500;
+}
+
+/* INPUT COMPONENTS*/
+
+.chat-input-text input {
+    padding: 0 0 0 14px;
+    border: none;
+    width: 100%;
+}
+input:focus-visible {
+    border: none;
+    outline: none;
+}
+input {
+    background: none !important;
+    color: var(--light);
+}
+.input-active .chat-input-text input::placeholder {
+    color: var(--transparentLight);
+}
+.input-active .floating-label {
+    color: var(--transparentLight);
+}
+button.active {
+    background: var(--light) !important;
+    color: var(--primary) !important;
+}
+button.inactive {
+    background: var(--light) !important;
+    color: var(--grey) !important;
+}
+
+.chat-input-button {
+    margin: 14px 12px;
+    float: right;
+    font-size: 24px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* TODO(mdc-migration): The following rule targets internal classes of button that may no longer apply for the MDC version.*/
+.chat-input-button .mat-button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.send-message {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

@@ -1,0 +1,243 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: medium;
+  background-color: #00000009;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  text-transform: uppercase !important;
+}
+
+button:nth-child(2) {
+  margin-left: 5px;
+}
+
+mat-horizontal-stepper {
+  background: transparent !important;
+}
+
+/* TODO(mdc-migration): The following rule targets internal classes of card that may no longer apply for the MDC version. */
+mat-card-content mat-form-field label {
+  font-weight: bold;
+}
+
+/* TODO(mdc-migration): The following rule targets internal classes of card that may no longer apply for the MDC version. */
+mat-card-title {
+  padding-top: 1% !important;
+  padding-bottom: 1% !important;
+  margin-bottom: 0.5% !important;
+  font-weight: initial !important;
+}
+
+/* TODO(mdc-migration): The following rule targets internal classes of card that may no longer apply for the MDC version. */
+mat-card {
+  margin: auto;
+}
+
+/* TODO(mdc-migration): The following rule targets internal classes of card that may no longer apply for the MDC version. */
+mat-card-actions {
+  margin-top: 1%;
+}
+
+/* TODO(mdc-migration): The following rule targets internal classes of radio that may no longer apply for the MDC version. */
+.mat-radio-label {
+  white-space: normal !important;
+}
+
+.mat-mdc-card > .mat-mdc-card-actions:last-child {
+  margin-bottom: 1em !important;
+}
+
+.mat-mdc-dialog-container h2 {
+  font-weight: lighter;
+}
+
+.mat-mdc-dialog-container h2 {
+  padding-top: 1% !important;
+  padding-bottom: 1% !important;
+  border-top: 1px solid rgba(0, 0, 0, .12);
+  border-bottom: 1px solid rgba(0, 0, 0, .12);
+  font-weight: lighter !important;
+}
+
+.form-note {
+  margin: 0;
+}
+
+.angular-editor {
+  margin-bottom: 10px;
+}
+
+.highlight-green {
+  background-color: rgb(158, 255, 123);
+}
+
+.highlight-orange {
+  background-color: rgb(255, 127, 80);
+}
+
+.instruction-example {
+  margin-left: 2%;
+}
+
+.gray-background {
+  background-color: #F0F0F0;
+}
+
+.highlight-yellow {
+  background-color: #FFFF7B;
+}
+
+.remove-highlight {
+  background-color: #F36060;
+}
+
+.replace-highlight {
+  background-color: #FFA500;
+}
+
+.insert-highlight {
+  background-color: #DFF652;
+}
+
+.highlighted-green {
+  background-color: rgb(158, 255, 123);
+}
+
+.highlighted-orange {
+  background-color: rgb(255, 127, 80);
+}
+
+.image-example {
+  text-align: center;
+  text-decoration: solid;
+  margin: auto;
+  max-width: 70%;
+}
+
+.radio-button-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-button-group-horizontal {
+  display: inline;
+}
+
+.radio-button {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.text-lighter {
+  font-weight: lighter;
+}
+
+.checkbox {
+  padding-left: 24px;
+  padding-bottom: 12px;
+}
+
+.initial {
+  font-weight: initial;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+.border {
+  border: 1px solid #ddd;
+}
+
+.indent {
+  margin-left: 5px;
+}
+
+.double-indent {
+  margin-left: 12px;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  align-self: flex-end;
+}
+
+.width-100 {
+  width: 100% !important;
+}
+
+.width-75 {
+  width: 75% !important;
+}
+
+.width-20 {
+  width: 20% !important;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.p-2px {
+  padding: 2px !important;
+}
+
+.p-5px {
+  padding: 5px !important;
+}
+
+.p-16px {
+  padding: 16px !important;
+}
+
+.pr-16px {
+  padding-right: 16px !important;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.mt-8px {
+  margin-top: 8px !important;
+}
+
+.mt-16px {
+  margin-top: 16px !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mb-8px {
+  margin-bottom: 8px !important;
+}
+
+.mb-16px {
+  margin-bottom: 16px !important;
+}
+
+.mat-elevation-z3 {
+  box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),0px 3px 4px 0px rgba(0, 0, 0, 0.14),0px 1px 8px 0px rgba(0, 0, 0, 0.12) !important;
+}

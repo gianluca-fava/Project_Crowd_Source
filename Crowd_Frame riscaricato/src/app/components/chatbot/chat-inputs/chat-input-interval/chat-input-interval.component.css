@@ -1,0 +1,56 @@
+
+/* TODO(mdc-migration): The following rule targets internal classes of slider that may no longer apply for the MDC version. */
+mat-slider {
+    width: 100%;
+}
+.chat-input-button {
+    margin: 14px 12px;
+    float: right;
+    font-size: 24px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* TODO(mdc-migration): The following rule targets internal classes of button that may no longer apply for the MDC version. */
+.chat-input-button .mat-button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.active {
+    background: var(--light) !important;
+    color: var(--primary) !important;
+}
+button.inactive {
+    background: var(--light) !important;
+    color: var(--grey) !important;
+}
+
+/* TODO(mdc-migration): The following rule targets internal classes of slider that may no longer apply for the MDC version. */
+.mat-accent .mat-slider-track-fill {
+    background-color: var(--light) !important;
+}
+
+/* TODO(mdc-migration): The following rule targets internal classes of slider that may no longer apply for the MDC version. */
+.mat-slider-thumb-label {
+    background-color: var(--light) !important;
+    color: var(--primary) !important;
+    border: var(--primary) solid 2px !important;
+}
+
+/* TODO(mdc-migration): The following rule targets internal classes of slider that may no longer apply for the MDC version. */
+.mat-slider-thumb {
+    background-color: var(--light) !important;
+    color: var(--primary) !important;
+}
+
+/* TODO(mdc-migration): The following rule targets internal classes of slider that may no longer apply for the MDC version. */
+.mat-slider-thumb-label-text {
+    opacity: 1 !important;
+    color: var(--primary) !important;
+}
+#min-max {
+    color: var(--light);
+}

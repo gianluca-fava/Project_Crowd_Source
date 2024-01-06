@@ -1,0 +1,104 @@
+<div class="container">
+    <ng-container *ngIf="this.task.showMessageFailGoldCheck[documentIndex]">
+        <div class="task-check-fail-section">
+            <mat-card appearance="outlined">
+                <mat-card-title class="main-title">
+                    <div class="red-title"></div>
+                    <div class="white-title">
+                        <span i18n>{{ this.task.documents[this.documentIndex].params['task_type'] }} Task Failed:</span>
+                    </div>
+                </mat-card-title>
+        
+                <mat-card-content class="description">
+                    <p><span i18n>{{ this.task.showMessageFailGoldCheck[documentIndex] }}</span></p>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </ng-container>
+
+    <mat-card appearance="outlined">
+        <mat-card-title>
+            <ng-container *ngIf="this.task.settings.element_labels && this.utilsService.getValueByKeyIgnoreCase(this.task.settings.element_labels, this.document.params['task_type'])">
+                {{ this.utilsService.getValueByKeyIgnoreCase(this.task.settings.element_labels, this.document.params['task_type']) }} {{this.task.getDocTypeNumber(this.document)}}
+            </ng-container>
+            <ng-container *ngIf="!(this.task.settings.element_labels && this.utilsService.getValueByKeyIgnoreCase(this.task.settings.element_labels, this.document.params['task_type']))">
+                {{this.document.params['task_type']}} <span i18n>Element</span> {{this.task.getDocTypeNumber(this.document)}}
+            </ng-container>
+        </mat-card-title>
+
+        <mat-card-content class="pt-16px">
+
+            <!-- Evaluation instructions markup -->
+
+            <ng-container *ngIf="this.task.instructionsEvaluation.element" class="evaluation-instructions">
+                <h2>{{this.task.instructionsEvaluation.element.label}} - {{this.task.instructionsEvaluation.element.caption}}</h2>
+                <div><p>{{this.task.instructionsEvaluation.element.text}}</p></div>
+            </ng-container>
+            <div *ngIf="this.task.instructionsEvaluation.instructions.length>0" class="evaluation-instructions">
+                <div *ngFor="let instruction of this.task.instructionsEvaluation.instructions">
+                    <h2 *ngIf="this.task.isCurrentTaskType(this.document, instruction.task_type)">{{instruction.caption}}</h2>
+                    <div *ngIf="this.task.isCurrentTaskType(this.document, instruction.task_type)"><p [innerHTML]="instruction.text"></p></div>
+                </div>
+            </div>
+
+            <!--- Countdown markup --->
+            <ng-container *ngIf="this.task.settings.countdownTime">
+                <div class="countdown sticky" *ngIf="this.task.settings.countdownTime>=0">
+                    <h1 class="text-lighter m-0">
+                        <span i18n>Time left:</span>
+                        <countdown #countdownElement [config]="{ demand: true, leftTime: this.task.documentsCountdownTime[documentIndex], format: 'mm:ss' }" (event)="handleCountdown($event, documentIndex)"></countdown>
+                    </h1>
+                </div>
+            </ng-container>
+
+            <ng-container *ngIf="(this.task.settings.modality=='pointwise')">
+                <ng-container *ngIf="!(this.task.settings.annotator)">
+                    <app-element-pointwise [documentIndex]="documentIndex"></app-element-pointwise>
+                </ng-container>
+                <ng-container *ngIf="(this.task.settings.annotator)">
+                    <app-annotator-laws *ngIf="(this.task.settings.annotator.type=='laws')" [documentIndex]="documentIndex"></app-annotator-laws>
+                    <app-annotator-options *ngIf="(this.task.settings.annotator.type=='options')" [documentIndex]="documentIndex"></app-annotator-options>
+                </ng-container>
+            </ng-container>
+            <ng-container *ngIf="(this.task.settings.modality=='pairwise')">
+                <app-element-pairwise [documentIndex]="documentIndex" (formEmitter)="storeAssessmentForm($event)"></app-element-pairwise>
+            </ng-container>
+            <app-dimension
+                    [worker]="this.worker"
+                    [task]="this.task"
+                    [documentIndex]="documentIndex"
+                    [documentsForm]="this.documentsForm"
+                    [searchEngineForms]="this.searchEngineForms"
+                    [resultsRetrievedForms]="this.resultsRetrievedForms"
+                    (formEmitter)="storeAssessmentForm($event)"
+            ></app-dimension>
+
+            <!-- "Back", "Next" and "Finish" actions markup -->
+            <mat-card-actions *ngIf="this.assessmentForm">
+                <button mat-flat-button color="primary"  *ngIf="documentIndex>0 && this.document.params['allow_back'] != false"
+                        [disabled]="this.sectionService.taskCompleted"
+                        (click)="handleDocumentCompletion('Back')">
+                    <span i18n>Back</span>
+                </button>
+                <button mat-flat-button color="primary"  *ngIf="documentIndex+1<this.task.documentsAmount || (documentIndex+1>=this.task.documentsAmount && this.task.questionnaireAmountEnd > 0)"
+                        [disabled]="((!assessmentForm.valid || assessmentForm.status == 'DISABLED' ) || !this.task.searchEngineRetrievedResponses[documentIndex] || this.sectionService.taskCompleted || !this.task.checkAnnotationConsistency(documentIndex))"
+                        (click)="handleDocumentCompletion('Next')">
+                    <span i18n>Next</span>
+                </button>
+                <button mat-stroked-button color="accent" 
+                        *ngIf="documentIndex+1>=this.task.documentsAmount && this.task.questionnaireAmountEnd == 0"
+                        [disabled]="(!assessmentForm.valid || assessmentForm.status == 'DISABLED'  || !this.task.searchEngineRetrievedResponses[documentIndex] || this.sectionService.taskCompleted || !this.task.checkAnnotationConsistency(documentIndex))"
+                        (click)="handleDocumentCompletion('Finish')">
+                    <span i18n>Finish</span>
+                </button>
+            </mat-card-actions>
+            <mat-card-actions *ngIf="!this.assessmentForm">
+                <button mat-flat-button color="primary" matStepperNext *ngIf="documentIndex+1<this.task.documentsAmount || (documentIndex+1>=this.task.documentsAmount && this.task.questionnaireAmountEnd > 0)" [disabled]="true">
+                    <span i18n>Next</span>
+                </button>
+            </mat-card-actions>
+
+        </mat-card-content>
+
+    </mat-card>
+</div>

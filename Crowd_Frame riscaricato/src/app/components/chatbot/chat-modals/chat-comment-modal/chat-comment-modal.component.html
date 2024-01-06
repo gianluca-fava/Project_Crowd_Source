@@ -1,0 +1,45 @@
+<div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Comment</h4>
+    <button
+        type="button"
+        class="btn-close"
+        aria-label="Close"
+        (click)="activeModal.close('')"
+    ></button>
+</div>
+<div class="modal-body">
+    <div class="row container m-0">
+        <div class="col-12 ps-0">{{ inMessage }}</div>
+        <div class="col-12 my-3" id="inputToken">
+            {{ inputToken }}
+        </div>
+        <div class="col-12 ps-0">{{ outMessage }}</div>
+        <div class="col-12 my-3" id="outToken">
+            {{ outputToken }}
+        </div>
+        <div class="col-12 ps-0">
+            Feel free to leave any comment to help us improve our task.
+        </div>
+
+        <div class="col-12 ps-0">
+            <form [formGroup]="commentFG" #commentNgForm>
+                <mat-form-field class="w-100">
+                    <textarea matInput formControlName="comment" rows="4">
+                    </textarea>
+                </mat-form-field>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="modal-footer justify-content-between">
+    <button
+        type="button"
+        class="btn btn-primary-outlined"
+        (click)="activeModal.close('')"
+    >
+        Close
+    </button>
+    <button type="button" class="btn btn-primary" (click)="addComment()">
+        Send
+    </button>
+</div>

@@ -1,0 +1,28 @@
+<div class="row" [ngClass]="readOnly ? 'input-inactive' : 'input-active'">
+    <div class="col-10 chat-input-text d-flex align-items-center">
+        <input
+            #message
+            class="p-2"
+            type="number"
+            placeholder="Enter a number..."
+            (keydown.enter)="onSubmit()"
+        />
+    </div>
+    <div class="col-2 send-message">
+        <button
+            mat-mini-fab
+            type="submit"
+            class="chat-input-button"
+            [disabled]="readOnly"
+            [ngClass]="readOnly ? 'inactive' : 'active'"
+            (click)="onSubmit()"
+        >
+            <mat-icon
+                aria-hidden="false"
+                aria-label="Send message"
+                fontIcon="send"
+                >send</mat-icon
+            >
+        </button>
+    </div>
+</div>

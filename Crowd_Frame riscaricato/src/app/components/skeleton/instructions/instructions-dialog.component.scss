@@ -1,0 +1,46 @@
+/* |--- DIALOG STYLES  --| */
+
+.mat-mdc-dialog-container {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.mat-mdc-dialog-container .mdc-dialog__content {
+    color: rgb(0, 0, 0);
+}
+
+.close-button {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+button {
+  text-transform: uppercase;
+}
+
+#task-instructions div {
+  font-size: 1.1em;
+}
+
+
+#task-instructions p {
+  line-height: 150%;
+  text-align: justify;
+}
+
+#task-instructions ul p {
+  margin-bottom: 0.5%;
+}
+
+#task-instructions li {
+  line-height: 200%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#task-instructions h1 {
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-weight: normal;
+}
