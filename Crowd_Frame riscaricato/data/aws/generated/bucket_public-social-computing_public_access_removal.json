@@ -1,0 +1,15 @@
+{
+    "ResponseMetadata": {
+        "RequestId": "JEHYT6Z1EV3CJPX0",
+        "HostId": "EkF8ytQUGtKys4tm9jQfPfqdOPVWKGdP3YDi4h9p+SC1kAPQEpBH5lik8TSFKEv7PZAiP+p3jjhqf+J6U3C3BQ==",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amz-id-2": "EkF8ytQUGtKys4tm9jQfPfqdOPVWKGdP3YDi4h9p+SC1kAPQEpBH5lik8TSFKEv7PZAiP+p3jjhqf+J6U3C3BQ==",
+            "x-amz-request-id": "JEHYT6Z1EV3CJPX0",
+            "date": "Mon, 08 Jan 2024 14:02:58 GMT",
+            "server": "AmazonS3",
+            "content-length": "0"
+        },
+        "RetryAttempts": 0
+    }
+}

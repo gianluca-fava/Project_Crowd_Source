@@ -1,0 +1,27 @@
+{
+    "Policy": {
+        "PolicyName": "CrowdWorkersInteractionPolicy",
+        "PolicyId": "ANPA4CJVDUZLVNOUEJGFX",
+        "Arn": "arn:aws:iam::829576947287:policy/CrowdWorkersInteractionPolicy",
+        "Path": "/",
+        "DefaultVersionId": "v1",
+        "AttachmentCount": 1,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "Description": "Provides crowd workers interaction with Crowd_Frame ecosystem",
+        "CreateDate": "2023-12-22 14:07:08+00:00",
+        "UpdateDate": "2023-12-22 14:07:08+00:00",
+        "Tags": []
+    },
+    "ResponseMetadata": {
+        "RequestId": "ce6e65e2-6b7a-4f54-ae5e-bf2b0502e2ac",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amzn-requestid": "ce6e65e2-6b7a-4f54-ae5e-bf2b0502e2ac",
+            "content-type": "text/xml",
+            "content-length": "890",
+            "date": "Mon, 08 Jan 2024 14:02:54 GMT"
+        },
+        "RetryAttempts": 0
+    }
+}

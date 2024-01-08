@@ -1,0 +1,30 @@
+{
+    "ResponseMetadata": {
+        "RequestId": "75da5987-b5c1-479d-ac7c-8d2dd542efe6",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "date": "Mon, 08 Jan 2024 14:02:58 GMT",
+            "content-type": "application/json",
+            "content-length": "401",
+            "connection": "keep-alive",
+            "x-amzn-requestid": "75da5987-b5c1-479d-ac7c-8d2dd542efe6",
+            "access-control-allow-origin": "*",
+            "x-amz-apigw-id": "ROUG9GZUliAEH5Q=",
+            "access-control-expose-headers": "x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date",
+            "x-amzn-trace-id": "Root=1-659c0092-28610dc22a20bb3432d18443"
+        },
+        "RetryAttempts": 0
+    },
+    "AutoDeploy": true,
+    "CreatedDate": "2023-12-22 14:08:46+00:00",
+    "DefaultRouteSettings": {
+        "DetailedMetricsEnabled": false
+    },
+    "DeploymentId": "x846qp",
+    "LastDeploymentStatusMessage": "Successfully deployed stage with deployment ID 'x846qp'",
+    "LastUpdatedDate": "2024-01-05 13:22:40+00:00",
+    "RouteSettings": {},
+    "StageName": "$default",
+    "StageVariables": {},
+    "Tags": {}
+}

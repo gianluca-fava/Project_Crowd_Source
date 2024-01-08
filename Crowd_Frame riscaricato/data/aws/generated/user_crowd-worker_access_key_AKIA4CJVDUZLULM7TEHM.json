@@ -1,0 +1,20 @@
+{
+    "AccessKey": {
+        "UserName": "crowd-worker",
+        "AccessKeyId": "AKIA4CJVDUZLULM7TEHM",
+        "Status": "Active",
+        "SecretAccessKey": "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",
+        "CreateDate": "2024-01-05 13:22:36+00:00"
+    },
+    "ResponseMetadata": {
+        "RequestId": "3c657b32-ddcb-466b-a023-3a7730765df6",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amzn-requestid": "3c657b32-ddcb-466b-a023-3a7730765df6",
+            "content-type": "text/xml",
+            "content-length": "554",
+            "date": "Fri, 05 Jan 2024 13:22:36 GMT"
+        },
+        "RetryAttempts": 0
+    }
+}

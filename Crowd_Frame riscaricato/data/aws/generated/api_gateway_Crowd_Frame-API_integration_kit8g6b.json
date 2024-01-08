@@ -1,0 +1,9 @@
+{
+    "ConnectionType": "INTERNET",
+    "IntegrationId": "kit8g6b",
+    "IntegrationMethod": "GET",
+    "IntegrationType": "HTTP_PROXY",
+    "IntegrationUri": "https://api.bing.microsoft.com/v7.0/search",
+    "PayloadFormatVersion": "1.0",
+    "TimeoutInMillis": 30000
+}

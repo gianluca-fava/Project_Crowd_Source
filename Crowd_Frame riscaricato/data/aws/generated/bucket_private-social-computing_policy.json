@@ -1,0 +1,41 @@
+{
+    "ResponseMetadata": {
+        "RequestId": "TBF7DRH1CGPFP2EH",
+        "HostId": "AV6/kfp9QYxTpIksLpY+Btlo6FmemkUOys+zxWuv1nmOmjeBHrMlVgNISp07oo2PwIMZA0kuCAVYvoiCdALvTQ==",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amz-id-2": "AV6/kfp9QYxTpIksLpY+Btlo6FmemkUOys+zxWuv1nmOmjeBHrMlVgNISp07oo2PwIMZA0kuCAVYvoiCdALvTQ==",
+            "x-amz-request-id": "TBF7DRH1CGPFP2EH",
+            "date": "Mon, 08 Jan 2024 14:02:57 GMT",
+            "content-type": "application/json",
+            "transfer-encoding": "chunked",
+            "server": "AmazonS3"
+        },
+        "RetryAttempts": 0
+    },
+    "Policy": {
+        "Version": "2012-10-17",
+        "Id": "PrivateBucket",
+        "Statement": [
+            {
+                "Sid": "AllowPrivateBucketInteraction",
+                "Effect": "Allow",
+                "Principal": {
+                    "AWS": [
+                        "arn:aws:iam::829576947287:user/Crowd_Frame/crowd-worker",
+                        "arn:aws:iam::829576947287:user/Crowd_Frame/config-user"
+                    ]
+                },
+                "Action": [
+                    "s3:PutObject",
+                    "s3:GetObject",
+                    "s3:ListBucket"
+                ],
+                "Resource": [
+                    "arn:aws:s3:::private-social-computing",
+                    "arn:aws:s3:::private-social-computing/*"
+                ]
+            }
+        ]
+    }
+}

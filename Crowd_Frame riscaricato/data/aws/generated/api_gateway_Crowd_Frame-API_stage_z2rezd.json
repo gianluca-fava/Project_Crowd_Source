@@ -1,0 +1,30 @@
+{
+    "ResponseMetadata": {
+        "RequestId": "b76fc850-6920-4a49-923a-042f367f8072",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "date": "Fri, 05 Jan 2024 13:22:40 GMT",
+            "content-type": "application/json",
+            "content-length": "401",
+            "connection": "keep-alive",
+            "x-amzn-requestid": "b76fc850-6920-4a49-923a-042f367f8072",
+            "access-control-allow-origin": "*",
+            "x-amz-apigw-id": "REVZFEdUliAEcjQ=",
+            "access-control-expose-headers": "x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date",
+            "x-amzn-trace-id": "Root=1-659802a0-0d04835b4fa697491cd7e3d9"
+        },
+        "RetryAttempts": 0
+    },
+    "AutoDeploy": true,
+    "CreatedDate": "2023-12-22 14:08:46+00:00",
+    "DefaultRouteSettings": {
+        "DetailedMetricsEnabled": false
+    },
+    "DeploymentId": "z2rezd",
+    "LastDeploymentStatusMessage": "Successfully deployed stage with deployment ID 'z2rezd'",
+    "LastUpdatedDate": "2024-01-05 13:22:39+00:00",
+    "RouteSettings": {},
+    "StageName": "$default",
+    "StageVariables": {},
+    "Tags": {}
+}

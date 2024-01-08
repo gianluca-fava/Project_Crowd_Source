@@ -1,0 +1,12 @@
+{
+    "PolicyName": "Configuration",
+    "PolicyId": "ANPA4CJVDUZLVKBYCJ3UE",
+    "Arn": "arn:aws:iam::829576947287:policy/Crowd_Frame/Configuration",
+    "Path": "/Crowd_Frame/",
+    "DefaultVersionId": "v1",
+    "AttachmentCount": 1,
+    "PermissionsBoundaryUsageCount": 0,
+    "IsAttachable": true,
+    "CreateDate": "2023-12-22 14:05:48+00:00",
+    "UpdateDate": "2023-12-22 14:05:48+00:00"
+}

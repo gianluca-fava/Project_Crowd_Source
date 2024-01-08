@@ -1,0 +1,31 @@
+{
+    "ResponseMetadata": {
+        "RequestId": "TBF93Z2VY7SPZGGN",
+        "HostId": "CvIvPhnX4wMzi+tHSIY2/Ra29MYFyveRwOJRBcCRvu4EKmpeHbw6OxYbxGt7zds3egf5f3q4CiKRtW4cI/2KIw==",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amz-id-2": "CvIvPhnX4wMzi+tHSIY2/Ra29MYFyveRwOJRBcCRvu4EKmpeHbw6OxYbxGt7zds3egf5f3q4CiKRtW4cI/2KIw==",
+            "x-amz-request-id": "TBF93Z2VY7SPZGGN",
+            "date": "Mon, 08 Jan 2024 14:02:57 GMT",
+            "transfer-encoding": "chunked",
+            "server": "AmazonS3"
+        },
+        "RetryAttempts": 0
+    },
+    "CORSRules": [
+        {
+            "AllowedHeaders": [
+                "*"
+            ],
+            "AllowedMethods": [
+                "GET",
+                "HEAD",
+                "PUT"
+            ],
+            "AllowedOrigins": [
+                "*"
+            ],
+            "MaxAgeSeconds": 3000
+        }
+    ]
+}

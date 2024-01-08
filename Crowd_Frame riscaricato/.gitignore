@@ -48,7 +48,6 @@ Thumbs.db
 
 # Environments
 src/environments/*
-data/build/environments/*
 
 # Visual Studio Code folder
 .vscode/
@@ -62,32 +61,16 @@ data/build/environments/*
 !.yarn/sdks
 !.yarn/versions
 
-# Environment variables file
-data/.env
-
-# File generated when configuring AWS
-data/aws/generated/*
-data/aws/backup/*
-
 .vscode/settings.json
 
 /venv
 
-# Outputs of build phase
-data/tasks/*
-data/build/deploy/*
-data/build/mturk/*
-data/build/task/*
-data/build/skeleton/document.ts
-data/build/config/admin.json
+
 
 # Random things
 local/log.md
 local/*
 
-data/build/skeleton/goldChecker.ts
-
-data/result/*
 
 .cache/*
 
@@ -98,10 +81,6 @@ data/build/toloka/tokens.tsv
 data/build/toloka/output_specification.json
 data/build/toloka/input_specification.json
 data/__pycache__/
-
-
-Data/*
-/.idea
 
 ##
 # Created by https://www.toptal.com/developers/gitignore/api/jupyternotebooks

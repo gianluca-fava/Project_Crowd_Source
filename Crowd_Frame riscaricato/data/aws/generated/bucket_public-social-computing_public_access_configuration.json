@@ -1,0 +1,21 @@
+{
+    "ResponseMetadata": {
+        "RequestId": "JEHYX23F35HCVKRM",
+        "HostId": "kGnWPPASQjpjglwlf3QjOj173f3I3zkgG7ZSO9ElYiF2dnqpnL7EemqQf3on35UMUXW4nHBXZ/cf+NXALDq7vQ==",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amz-id-2": "kGnWPPASQjpjglwlf3QjOj173f3I3zkgG7ZSO9ElYiF2dnqpnL7EemqQf3on35UMUXW4nHBXZ/cf+NXALDq7vQ==",
+            "x-amz-request-id": "JEHYX23F35HCVKRM",
+            "date": "Mon, 08 Jan 2024 14:02:58 GMT",
+            "transfer-encoding": "chunked",
+            "server": "AmazonS3"
+        },
+        "RetryAttempts": 0
+    },
+    "PublicAccessBlockConfiguration": {
+        "BlockPublicAcls": false,
+        "IgnorePublicAcls": false,
+        "BlockPublicPolicy": false,
+        "RestrictPublicBuckets": false
+    }
+}

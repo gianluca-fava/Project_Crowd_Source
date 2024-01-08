@@ -1,0 +1,50 @@
+{
+    "ResponseMetadata": {
+        "RequestId": "JEHMP0WA7P8SYKRV",
+        "HostId": "yXMmBAtbUlEmyz7HlcyWEie2wRenEZy4d6Oq66Ja4f8Ahwo4fDfrQnC3Vi5v0JdyAT2id9RPEBUh149qrT5RgA==",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amz-id-2": "yXMmBAtbUlEmyz7HlcyWEie2wRenEZy4d6Oq66Ja4f8Ahwo4fDfrQnC3Vi5v0JdyAT2id9RPEBUh149qrT5RgA==",
+            "x-amz-request-id": "JEHMP0WA7P8SYKRV",
+            "date": "Mon, 08 Jan 2024 14:02:58 GMT",
+            "content-type": "application/json",
+            "transfer-encoding": "chunked",
+            "server": "AmazonS3"
+        },
+        "RetryAttempts": 0
+    },
+    "Policy": {
+        "Version": "2012-10-17",
+        "Id": "DeployBucket",
+        "Statement": [
+            {
+                "Sid": "AllowPublicBucketInteraction",
+                "Effect": "Allow",
+                "Principal": {
+                    "AWS": "arn:aws:iam::829576947287:user/Crowd_Frame/crowd-worker"
+                },
+                "Action": [
+                    "s3:PutObject",
+                    "s3:GetObject",
+                    "s3:ListBucket"
+                ],
+                "Resource": [
+                    "arn:aws:s3:::public-social-computing",
+                    "arn:aws:s3:::public-social-computing/*"
+                ]
+            },
+            {
+                "Sid": "AllowPublicBucketAdministration",
+                "Effect": "Allow",
+                "Principal": {
+                    "AWS": "arn:aws:iam::829576947287:user/Crowd_Frame/config-user"
+                },
+                "Action": "s3:*",
+                "Resource": [
+                    "arn:aws:s3:::public-social-computing",
+                    "arn:aws:s3:::public-social-computing/*"
+                ]
+            }
+        ]
+    }
+}

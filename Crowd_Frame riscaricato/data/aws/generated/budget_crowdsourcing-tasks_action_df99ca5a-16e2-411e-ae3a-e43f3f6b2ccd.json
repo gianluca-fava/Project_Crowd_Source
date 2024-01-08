@@ -1,0 +1,29 @@
+{
+    "ActionId": "df99ca5a-16e2-411e-ae3a-e43f3f6b2ccd",
+    "BudgetName": "crowdsourcing-tasks",
+    "NotificationType": "ACTUAL",
+    "ActionType": "APPLY_IAM_POLICY",
+    "ActionThreshold": {
+        "ActionThresholdValue": 95.0,
+        "ActionThresholdType": "PERCENTAGE"
+    },
+    "Definition": {
+        "IamActionDefinition": {
+            "PolicyArn": "arn:aws:iam::aws:policy/AWSDenyAll",
+            "Users": [
+                "crowd-worker",
+                "config-user",
+                "mturk-user"
+            ]
+        }
+    },
+    "ExecutionRoleArn": "arn:aws:iam::829576947287:role/Crowd_Frame/Budgeting",
+    "ApprovalModel": "AUTOMATIC",
+    "Status": "STANDBY",
+    "Subscribers": [
+        {
+            "SubscriptionType": "EMAIL",
+            "Address": "gianluca.fava154@gmail.com"
+        }
+    ]
+}

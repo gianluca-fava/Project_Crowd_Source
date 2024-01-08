@@ -1,0 +1,12 @@
+{
+    "PolicyName": "Budgeting",
+    "PolicyId": "ANPA4CJVDUZLTIHM5VP2J",
+    "Arn": "arn:aws:iam::829576947287:policy/Crowd_Frame/Budgeting",
+    "Path": "/Crowd_Frame/",
+    "DefaultVersionId": "v1",
+    "AttachmentCount": 1,
+    "PermissionsBoundaryUsageCount": 0,
+    "IsAttachable": true,
+    "CreateDate": "2023-12-22 14:13:19+00:00",
+    "UpdateDate": "2023-12-22 14:13:19+00:00"
+}

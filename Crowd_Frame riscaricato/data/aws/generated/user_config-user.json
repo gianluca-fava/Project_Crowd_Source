@@ -1,0 +1,20 @@
+{
+    "User": {
+        "Path": "/Crowd_Frame/",
+        "UserName": "config-user",
+        "UserId": "AIDA4CJVDUZL3SDVNNUTJ",
+        "Arn": "arn:aws:iam::829576947287:user/Crowd_Frame/config-user",
+        "CreateDate": "2023-12-22 14:05:48+00:00"
+    },
+    "ResponseMetadata": {
+        "RequestId": "8e115c3f-e580-4307-888c-6e2d21e1acf3",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amzn-requestid": "8e115c3f-e580-4307-888c-6e2d21e1acf3",
+            "content-type": "text/xml",
+            "content-length": "495",
+            "date": "Mon, 08 Jan 2024 14:02:51 GMT"
+        },
+        "RetryAttempts": 0
+    }
+}

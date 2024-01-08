@@ -1,0 +1,7 @@
+{
+    "ApiKeyRequired": false,
+    "AuthorizationType": "NONE",
+    "RouteId": "4xorxjm",
+    "RouteKey": "POST /log",
+    "Target": "integrations/rr2zokn"
+}
