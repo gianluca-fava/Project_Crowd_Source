@@ -19,7 +19,7 @@ Genera un file .csv in cui vengono accoppiate 5 recensioni casuali ad ognuno dei
 
 # COSE DA FARE
 
-Sistemare le 5 domande iniziali (ne mancano 1/2)
+Sistemare le 5 domande iniziali (ne mancano 1/2) -> mettere tutte le domande in una sezione (adesso sono tutte in sezioni diverse)
 
 Fare un jupiter Notebook che crea gli hit basato su df_HIT_reviews.csv -> l'insieme delle hits (15 hit) che devono esserer svolte da 15 worker, ogni worker deve rispondere alle 5 domande iniziali (di conoscenza) e poi deve rispondere alle seguenti doamnde per ognuna delle 5 review:
   - Affidabilità (reliability): the review is considered reliable, as opposed to reporting unreliable information.
