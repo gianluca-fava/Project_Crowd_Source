@@ -1,8 +1,4 @@
 {
     "source": "BingWebSearch",
-    "domains_filter": [
-        "politifact",
-        "poynter",
-        "fullfact"
-    ]
+    "domains_filter": []
 }

@@ -3,14 +3,10 @@ export class Document {
 		index: number;
 		params: { };
 		id: string;
-		fact_check_ground_truth_label: string;
-		fact_check_ground_truth_value: number;
-		fact_check_source: string;
-		speaker_name: string;
-		speaker_party: string;
-		statement_date: string;
-		statement_description: string;
-		statement_text: string;
+		review_time: string;
+		product_title: string;
+		product_brand: string;
+		review_text: string;
 
 		constructor (
 			index: number,
@@ -25,14 +21,10 @@ export class Document {
 			this.params["check_gold"] = params["check_gold"]
 			this.params["reset_jump"] = params["reset_jump"]
 			this.id = data["id"]
-			this.fact_check_ground_truth_label = data["fact_check_ground_truth_label"]
-			this.fact_check_ground_truth_value = data["fact_check_ground_truth_value"]
-			this.fact_check_source = data["fact_check_source"]
-			this.speaker_name = data["speaker_name"]
-			this.speaker_party = data["speaker_party"]
-			this.statement_date = data["statement_date"]
-			this.statement_description = data["statement_description"]
-			this.statement_text = data["statement_text"]
+			this.review_time = data["review_time"]
+			this.product_title = data["product_title"]
+			this.product_brand = data["product_brand"]
+			this.review_text = data["review_text"]
 
 		}
 

@@ -1,10 +1,10 @@
 [
-	{
-		"caption": "Task Instructions",
-		"text": "<p>In this task, you will be asked to select a value to indicate the truth level of some reviews.</p><p>We will show you 5 reviews posted by individuals on e-commerce platforms, such as Amazon. For each statement, we ask you to communicate its 'Truth level,' that is, <b>how much the statement represents reality, how reliable it is</b>. The truth level must be selected from 5 different labels.</p><p>Please note that during the task, there will be <u>some checks that if not performed correctly</u>, you will not be able to finish. <p>The data for this task is collected for research purposes, and no personally identifiable information is recorded. Participation is entirely voluntary, and you are free to discontinue at any time.</p>"
-	},
-	{
-		"caption": "Task Description",
-		"text": "<p>Initially, you will be asked to complete a questionnaire that will assist us in data analysis.<br> Subsequently, you will be asked to evaluate 5 statements, one at a time, and each statement should be judged for reliability, neutrality, comprehensibility, accuracy, completeness, informativeness, using sliders. You can correct the judgment with the 'Back' button if necessary.</p><p>The reviews will appear in a random order, and you should not try to anticipate the answer but evaluate each statement after reading it. Do not attempt to guess or click randomly as there are cross-checks as indicated above.</p>"
-	}
+    {
+        "caption": "Task Instructions",
+        "text": "<p>In this task, you will be asked to select a value to indicate the truth level of some reviews.</p><p>We will show you 5 reviews posted by individuals on Amazon. For each statement, we ask you to communicate its <b>'Truth level':&#160;how much the statement represents reality, how reliable it is</b>. The truth level must be selected from 5 different labels.</p><p>Please note that during the task, there will be <b>some checks that if not performed correctly</b>, you will not be able to finish. </p><p>The data for this task is collected for research purposes, and no personally identifiable information is recorded. Participation is entirely voluntary, and you are free to discontinue at any time.</p>"
+    },
+    {
+        "caption": "Task Description",
+        "text": "<p>Initially, you will be asked to complete a questionnaire that will assist us in data analysis.</p><p> Then, you will be asked to evaluate 5 statements, one at a time, and each statement should be judged for <u>reliability, neutrality, comprehensibility, accuracy, completeness, informativeness</u>. You can correct the judgment with the <i>'Back' </i>button if necessary.</p><p>The reviews will appear in a random order, and you should <b>not try to anticipate the answer but evaluate each statement after reading it</b>. Do not attempt to guess or click randomly as <u>there are cross-checks</u> as indicated above.</p>"
+    }
 ]

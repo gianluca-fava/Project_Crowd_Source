@@ -1,7 +1,1 @@
-{
-    "block": false,
-    "blacklist": [],
-    "whitelist": [],
-    "blacklist_batches": [],
-    "whitelist_batches": []
-}
+{"block":true,"blacklist":[],"whitelist":[],"blacklist_batches":[],"whitelist_batches":[]}
