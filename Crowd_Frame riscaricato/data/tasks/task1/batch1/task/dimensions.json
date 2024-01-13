@@ -1,0 +1,50 @@
+[
+    {
+        "name": "truthfulness",
+        "name_pretty": false,
+        "description": false,
+        "example": false,
+        "gold": true,
+        "pairwise": false,
+        "justification": false,
+        "url": false,
+        "scale": {
+            "type": "categorical",
+            "multiple_selection": false,
+            "mapping": [
+                {
+                    "label": "Reliability",
+                    "description": "the review is considered reliable, as opposed to reporting unreliable information.",
+                    "value": "0"
+                },
+                {
+                    "label": "Neutrality",
+                    "description": "the review is expressed in objective terms, as opposed to resulting subjective or biased.",
+                    "value": "1"
+                },
+                {
+                    "label": "Comprehensibility",
+                    "description": "the review is understandable/readable as opposed to difficult to understand.",
+                    "value": "2"
+                },
+                {
+                    "label": "Precision",
+                    "description": " the review is precise/specific, as opposed to vague.",
+                    "value": "3"
+                },
+                {
+                    "label": "Completeness",
+                    "description": "the review is complete as opposed to partial.",
+                    "value": "4"
+                },
+                {
+                    "label": "Informativeness",
+                    "description": "the review allows deriving useful information as opposed to well-known facts and/or tautologies.",
+                    "value": "5"
+                }
+            ],
+            "instructions": false
+        },
+        "style": false
+    }
+]

@@ -1,0 +1,116 @@
+[
+    {
+        "type": "standard",
+        "position": "start",
+        "allow_back": true,
+        "questions": [
+            {
+                "index": 0,
+                "name": "Age",
+                "text": "What is your age? Please select the corresponding range.",
+                "answers": [
+                    "Under 18",
+                    "18-24",
+                    "25-34",
+                    "35-44",
+                    "45-54",
+                    "Over 54"
+                ],
+                "type": "mcq",
+                "required": true,
+                "free_text": false,
+                "detail": null,
+                "show_detail": false
+            },
+            {
+                "index": 1,
+                "name": "Gender",
+                "text": "What is your gender? Please select the corresponding answer.",
+                "answers": [
+                    "Male",
+                    "Female",
+                    "Prefer not to say"
+                ],
+                "type": "mcq",
+                "required": true,
+                "free_text": false,
+                "detail": null,
+                "show_detail": false
+            },
+            {
+                "index": 2,
+                "name": "Gaming Frequency",
+                "text": "How often do you play video games?",
+                "answers": [
+                    "Every day",
+                    "A few times a week",
+                    "Once a month",
+                    "Rarely",
+                    "Never"
+                ],
+                "type": "mcq",
+                "required": true,
+                "free_text": false,
+                "detail": null,
+                "show_detail": false
+            },
+            {
+                "index": 3,
+                "name": "Reliance on Reviews",
+                "text": "How likely are you to write reviews for products purchased online?",
+                "answers": [
+                    "Always (for almost all products)",
+                    "Often (for 80% of products)",
+                    "Occasionally (for 50% of products)",
+                    "Rarely (for 20% of products)",
+                    "Never (I'm not interested in writing reviews)"
+                ],
+                "type": "mcq",
+                "required": true,
+                "free_text": false,
+                "detail": null,
+                "show_detail": false
+            },
+            {
+                "index": 4,
+                "name": "Trust in Reviews",
+                "text": "How inclined are you to base the purchase of an online product on others' reviews?",
+                "answers": [
+                    "Very inclined (yes, I decisively base my choices)",
+                    "Quite inclined (yes, they influence my purchase decision)",
+                    "Moderately inclined (yes, I consider them but not only)",
+                    "Not very inclined (no, I consider other factors)",
+                    "Not at all inclined (no, they do not influence my purchase)"
+                ],
+                "type": "mcq",
+                "required": true,
+                "free_text": false,
+                "detail": null,
+                "show_detail": false
+            }
+        ]
+    },
+    {
+        "type": "standard",
+        "position": "start",
+        "allow_back": true,
+        "questions": [
+            {
+                "index": 0,
+                "name": "Check",
+                "text": "Which of these is one of the most famous game series developed by Nintendo, where the main character has a red hat and a mustache?",
+                "answers": [
+                    "Halo",
+                    "Super Mario",
+                    "Call Of Duty",
+                    "Grand Theft Auto"
+                ],
+                "type": "mcq",
+                "required": true,
+                "free_text": false,
+                "detail": null,
+                "show_detail": false
+            }
+        ]
+    }
+]
