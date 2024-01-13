@@ -1,5 +1,5 @@
 {
-    "source": "FakerWebSearch",
+    "source": "BingWebSearch",
     "domains_filter": [
         "politifact",
         "poynter",

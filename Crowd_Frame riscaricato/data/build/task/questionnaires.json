@@ -1,128 +1,116 @@
 [
-	{
-		"name": "Demographic_1",
-		"index": 0,
-		"type": "standard",
-		"position": "start",
-		"allow_back": false,
-		"questions": [
-			{
-				"index": 0,
-				"name": "age",
-				"text": "What iss your age range?",
-				"type": "mcq",
-				"required": true,
-				"answers": [
-					"0-18",
-					"19-25",
-					"26-35",
-					"36-50",
-					"51-80",
-					"81+"
-				]
-			},
-			{
-				"index": 1,
-				"name": "school",
-				"text": "What is the highest level of school you have completed or the highest degree you have received?",
-				"type": "mcq",
-				"required": true,
-				"answers": [
-					"High school incomplete or less",
-					"High school graduate or GED (includes technical/vocational training that doesn’t towards college credit)",
-					"Some college (some community college, associate’s degree)",
-					"Four year college degree/bachelor’s degree",
-					"Some postgraduate or professional schooling, no postgraduate degree",
-					"Postgraduate or professional degree, including master’s, doctorate, medical or law degree"
-				]
-			},
-			{
-				"index": 2,
-				"name": "taxes",
-				"text": "Last year what was your total family income from all sources, before taxes?",
-				"type": "mcq",
-				"required": true,
-				"answers": [
-					"Less than 10,000$",
-					"10,000$ to less than 20,000$",
-					"20,000$ to less than 30,000$",
-					"30,000$ to less than 40,000$",
-					"40,000$ to less than 50,000$",
-					"50,000$ to less than 75,000$",
-					"75,000$ to less than 100,000$",
-					"100,000$ to less than 150,000$",
-					"150,000$ or more"
-				]
-			},
-			{
-				"index": 3,
-				"name": "political_views",
-				"text": "In general, would you describe your political views as",
-				"type": "mcq",
-				"required": true,
-				"answers": [
-					"Very conservative",
-					"Conservative",
-					"Moderate",
-					"Liberal",
-					"Very liberal",
-					"I would rather not answer"
-				]
-			},
-			{
-				"index": 4,
-				"name": "consideration",
-				"text": "In politics today, do you consider yourself a",
-				"type": "mcq",
-				"required": true,
-				"answers": [
-					"Republican",
-					"Democrat",
-					"Independent",
-					"Something else"
-				]
-			},
-			{
-				"index": 5,
-				"name": "southern_border",
-				"text": "Should the U.S. Government build a wall along the southern border?",
-				"type": "mcq",
-				"required": true,
-				"answers": [
-					"Agree",
-					"Disagree",
-					"No opinion either way"
-				]
-			},
-			{
-				"index": 6,
-				"name": "environment",
-				"text": "Should the U.S. Government adopt better policies to prevent climate change?",
-				"type": "mcq",
-				"required": true,
-				"answers": [
-					"Agree",
-					"Disagree",
-					"No opinion either way"
-				]
-			}
-		]
-	},
-	{
-		"index": 1,
-		"name": "CRT_1",
-		"type": "crt",
-		"position": "start",
-		"allow_back": false,
-		"questions": [
-			{
-				"index": 0,
-				"name": "farmers",
-				"type": "number",
-				"required": true,
-				"text": "If three farmers can plant three trees in three hours, how long would it take nine farmers to plant nine trees?",
-				"answers": []
-			}
-		]
-	}
+    {
+        "type": "standard",
+        "position": "start",
+        "allow_back": true,
+        "questions": [
+            {
+                "index": 0,
+                "name": "Age",
+                "text": "What is your age? Please select the corresponding range.",
+                "answers": [
+                    "Under 18",
+                    "18-24",
+                    "25-34",
+                    "35-44",
+                    "45-54",
+                    "Over 54"
+                ],
+                "type": "mcq",
+                "required": true,
+                "free_text": false,
+                "detail": null,
+                "show_detail": false
+            },
+            {
+                "index": 1,
+                "name": "Gender",
+                "text": "What is your gender? Please select the corresponding answer.",
+                "answers": [
+                    "Male",
+                    "Female",
+                    "Prefer not to say"
+                ],
+                "type": "mcq",
+                "required": true,
+                "free_text": false,
+                "detail": null,
+                "show_detail": false
+            },
+            {
+                "index": 2,
+                "name": "Gaming Frequency",
+                "text": "How often do you play video games?",
+                "answers": [
+                    "Every day",
+                    "A few times a week",
+                    "Once a month",
+                    "Rarely",
+                    "Never"
+                ],
+                "type": "mcq",
+                "required": true,
+                "free_text": false,
+                "detail": null,
+                "show_detail": false
+            },
+            {
+                "index": 3,
+                "name": "Reliance on Reviews",
+                "text": "How likely are you to write reviews for products purchased online?",
+                "answers": [
+                    "Always (for almost all products)",
+                    "Often (for 80% of products)",
+                    "Occasionally (for 50% of products)",
+                    "Rarely (for 20% of products)",
+                    "Never (I'm not interested in writing reviews)"
+                ],
+                "type": "mcq",
+                "required": true,
+                "free_text": false,
+                "detail": null,
+                "show_detail": false
+            },
+            {
+                "index": 4,
+                "name": "Trust in Reviews",
+                "text": "How inclined are you to base the purchase of an online product on others' reviews?",
+                "answers": [
+                    "Very inclined (yes, I decisively base my choices)",
+                    "Quite inclined (yes, they influence my purchase decision)",
+                    "Moderately inclined (yes, I consider them but not only)",
+                    "Not very inclined (no, I consider other factors)",
+                    "Not at all inclined (no, they do not influence my purchase)"
+                ],
+                "type": "mcq",
+                "required": true,
+                "free_text": false,
+                "detail": null,
+                "show_detail": false
+            }
+        ]
+    },
+    {
+        "type": "standard",
+        "position": "start",
+        "allow_back": true,
+        "questions": [
+            {
+                "index": 0,
+                "name": "Check",
+                "text": "Which of these is one of the most famous game series developed by Nintendo, where the main character has a red hat and a mustache?",
+                "answers": [
+                    "Halo",
+                    "Super Mario",
+                    "Call Of Duty",
+                    "Grand Theft Auto"
+                ],
+                "type": "mcq",
+                "required": true,
+                "free_text": false,
+                "detail": null,
+                "show_detail": false
+            }
+        ]
+    }
 ]
