@@ -1,17 +1,17 @@
 {
     "ResponseMetadata": {
-        "RequestId": "15519d93-9e19-4a6d-b779-8387af9c9866",
+        "RequestId": "502f509d-0e9a-4ee2-a939-1de70f505850",
         "HTTPStatusCode": 200,
         "HTTPHeaders": {
-            "date": "Sat, 13 Jan 2024 15:27:49 GMT",
+            "date": "Mon, 15 Jan 2024 16:24:10 GMT",
             "content-type": "application/json",
             "content-length": "401",
             "connection": "keep-alive",
-            "x-amzn-requestid": "15519d93-9e19-4a6d-b779-8387af9c9866",
+            "x-amzn-requestid": "502f509d-0e9a-4ee2-a939-1de70f505850",
             "access-control-allow-origin": "*",
-            "x-amz-apigw-id": "Re_OcHIyliAEGGw=",
+            "x-amz-apigw-id": "RltWmGIoFiAEcvQ=",
             "access-control-expose-headers": "x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date",
-            "x-amzn-trace-id": "Root=1-65a2abf5-1fbf69802784c5fb57604971"
+            "x-amzn-trace-id": "Root=1-65a55c29-71f1c364139f3aa20e600511"
         },
         "RetryAttempts": 0
     },

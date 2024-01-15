@@ -1,12 +1,12 @@
 {
     "ResponseMetadata": {
-        "RequestId": "2RGTK75S79TFXAN8",
-        "HostId": "m3T3MJVUQsaTal8Jf2cHc4Ae2Z31vO0EanR34b70eo5Tih4LBgzsz70aBDqyUD6GBQd3bFW6Qn4=",
+        "RequestId": "5DAMJXCZJZAW648P",
+        "HostId": "l/akcTX77umRjyCzBAPliKPcKjRt4p4ICKrE8xNJOPh5WZCKCJubs07GA4LmzRW4NdqQVWtGt9tMg7Ih9eo7BA==",
         "HTTPStatusCode": 200,
         "HTTPHeaders": {
-            "x-amz-id-2": "m3T3MJVUQsaTal8Jf2cHc4Ae2Z31vO0EanR34b70eo5Tih4LBgzsz70aBDqyUD6GBQd3bFW6Qn4=",
-            "x-amz-request-id": "2RGTK75S79TFXAN8",
-            "date": "Sat, 13 Jan 2024 15:27:48 GMT",
+            "x-amz-id-2": "l/akcTX77umRjyCzBAPliKPcKjRt4p4ICKrE8xNJOPh5WZCKCJubs07GA4LmzRW4NdqQVWtGt9tMg7Ih9eo7BA==",
+            "x-amz-request-id": "5DAMJXCZJZAW648P",
+            "date": "Mon, 15 Jan 2024 16:24:09 GMT",
             "content-type": "application/json",
             "transfer-encoding": "chunked",
             "server": "AmazonS3"
@@ -22,8 +22,8 @@
                 "Effect": "Allow",
                 "Principal": {
                     "AWS": [
-                        "arn:aws:iam::829576947287:user/Crowd_Frame/config-user",
-                        "arn:aws:iam::829576947287:user/Crowd_Frame/crowd-worker"
+                        "arn:aws:iam::829576947287:user/Crowd_Frame/crowd-worker",
+                        "arn:aws:iam::829576947287:user/Crowd_Frame/config-user"
                     ]
                 },
                 "Action": [
