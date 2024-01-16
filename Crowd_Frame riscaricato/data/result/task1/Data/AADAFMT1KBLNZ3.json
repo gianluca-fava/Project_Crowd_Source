@@ -1,0 +1,1359 @@
+[
+    {
+        "source_path":"result/task1/Data/AADAFMT1KBLNZ3.json",
+        "source_data":"Crowd_Frame-task1_batch1_Data",
+        "source_acl":"Crowd_Frame-task1_batch1_ACL",
+        "source_log":"Crowd_Frame-task1_batch1_Logger",
+        "data_items":3,
+        "task":{
+            "try_last":1,
+            "task_name":"task1",
+            "batch_name":"batch1",
+            "unit_id":"unit_0",
+            "token_input":"YETHSZSTXHU",
+            "token_output":"ECZPMTQURXU",
+            "tries_amount":10,
+            "questionnaire_amount":2,
+            "questionnaire_amount_start":2,
+            "questionnaire_amount_end":0,
+            "documents_amount":5,
+            "dimensions_amount":6,
+            "search_engine_settings":{
+                "source":"BingWebSearch",
+                "domains_filter":[]
+            },
+            "time_submit":"Tue, 16 Jan 2024 09:56:40 GMT",
+            "time_submit_parsed":"2024-01-16 09:56:40 00:00",
+            "info":{
+                "try":1,
+                "sequence":0,
+                "element":"data"
+            },
+            "settings":{
+                "modality":"pointwise",
+                "allowed_tries":10,
+                "time_assessment":1,
+                "time_check_amount":1,
+                "attributes":[
+                    {
+                        "index":0,
+                        "name":"id",
+                        "name_pretty":"Id",
+                        "show":false,
+                        "annotate":false,
+                        "required":false
+                    },
+                    {
+                        "index":1,
+                        "name":"review_time",
+                        "name_pretty":"Time",
+                        "show":true,
+                        "annotate":false,
+                        "required":false
+                    },
+                    {
+                        "index":2,
+                        "name":"product_title",
+                        "name_pretty":"Title",
+                        "show":true,
+                        "annotate":false,
+                        "required":false
+                    },
+                    {
+                        "index":3,
+                        "name":"product_brand",
+                        "name_pretty":"Brand",
+                        "show":true,
+                        "annotate":false,
+                        "required":false
+                    },
+                    {
+                        "index":4,
+                        "name":"review_text",
+                        "name_pretty":"Review",
+                        "show":true,
+                        "annotate":false,
+                        "required":false
+                    }
+                ],
+                "element_labels":null,
+                "annotator":null,
+                "countdownTime":null,
+                "countdown_behavior":false,
+                "countdown_modality":false,
+                "countdown_attribute":false,
+                "countdown_attribute_values":[],
+                "countdown_position_values":[],
+                "logger_enable":false,
+                "logger_options":{
+                    "button":{
+                        "general":false,
+                        "click":false
+                    },
+                    "mouse":{
+                        "general":false,
+                        "mouseMovements":false,
+                        "leftClicks":false,
+                        "rightClicks":false
+                    },
+                    "keyboard":{
+                        "general":false,
+                        "shortcuts":false,
+                        "keys":false
+                    },
+                    "textInput":{
+                        "general":false,
+                        "paste":false,
+                        "delete":false
+                    },
+                    "clipboard":{
+                        "general":false,
+                        "copy":false,
+                        "cut":false
+                    },
+                    "radio":{
+                        "general":false,
+                        "change":false
+                    },
+                    "search-engine-body":{
+                        "general":false,
+                        "query":false,
+                        "result":false
+                    },
+                    "various":{
+                        "general":false,
+                        "selection":false,
+                        "unload":false,
+                        "focus&blur":false,
+                        "scroll":false,
+                        "resize":false
+                    }
+                },
+                "logger_server_endpoint":"",
+                "messages":[]
+            }
+        },
+        "worker":{
+            "identifier":"AADAFMT1KBLNZ3",
+            "params_fetched":{
+                "identifier":"AADAFMT1KBLNZ3",
+                "task_name":"task1",
+                "batch_name":"batch1",
+                "platform":"custom",
+                "folder":"task1/batch1/Data/AADAFMT1KBLNZ3/",
+                "access_counter":"1",
+                "paid":"false",
+                "generated":"true",
+                "in_progress":"true",
+                "position_current":"0",
+                "try_current":"1",
+                "try_left":"10",
+                "time_arrival":"Tue, 16 Jan 2024 09:56:38 GMT",
+                "time_expiration":"Tue, 16 Jan 2024 10:56:38 GMT",
+                "time_expiration_nearest":"Tue, 16 Jan 2024 10:56:38 GMT",
+                "time_expired":"false",
+                "ip_address":"2a09:bac2:41f7:1e1::30:4f",
+                "ip_source":"cf",
+                "user_agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Mobile/15E148 Safari/604.1",
+                "user_agent_source":"cf",
+                "unit_id":"unit_0",
+                "token_input":"YETHSZSTXHU",
+                "token_output":"ECZPMTQURXU",
+                "status_code":"202"
+            },
+            "properties_fetched":{
+                "ngx_user_agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Mobile/15E148 Safari/604.1",
+                "ngx_os":"iOS",
+                "ngx_browser":"Safari",
+                "ngx_device":"iPhone",
+                "ngx_os_version":"iOS",
+                "ngx_browser_version":"16.3",
+                "ngx_device_type":"mobile",
+                "ngx_orientation":"portrait",
+                "nav_standalone":false,
+                "nav_hardware_concurrency":4,
+                "nav_webdriver":false,
+                "nav_max_touch_points":5,
+                "nav_cookie_enabled":true,
+                "nav_app_code_name":"Mozilla",
+                "nav_app_name":"Netscape",
+                "nav_app_version":"5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Mobile/15E148 Safari/604.1",
+                "nav_platform":"iPhone",
+                "nav_product":"Gecko",
+                "nav_product_sub":"20030107",
+                "nav_user_agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Mobile/15E148 Safari/604.1",
+                "nav_vendor":"Apple Computer, Inc.",
+                "nav_vendor_sub":"",
+                "nav_language":"it-IT",
+                "nav_on_line":true,
+                "cf_fl":"48f79",
+                "cf_h":"www.cloudflare.com",
+                "cf_ip":"2a09:bac2:41f7:1e1::30:4f",
+                "cf_ts":"1705398998.061",
+                "cf_visit_scheme":"https",
+                "cf_uag":"Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Mobile/15E148 Safari/604.1",
+                "cf_colo":"DUS",
+                "cf_sliver":"010-dus01",
+                "cf_http":"http/2",
+                "cf_loc":"IT",
+                "cf_tls":"TLSv1.3",
+                "cf_sni":"plaintext",
+                "cf_warp":"off",
+                "cf_gateway":"off",
+                "cf_rbi":"off",
+                "cf_kex":"X25519",
+                "ipify_0":"f",
+                "ipify_1":"l",
+                "ipify_2":"=",
+                "ipify_3":"4",
+                "ipify_4":"8",
+                "ipify_5":"f",
+                "ipify_6":"7",
+                "ipify_7":"9",
+                "ipify_8":"\n",
+                "ipify_9":"h",
+                "ipify_10":"=",
+                "ipify_11":"w",
+                "ipify_12":"w",
+                "ipify_13":"w",
+                "ipify_14":".",
+                "ipify_15":"c",
+                "ipify_16":"l",
+                "ipify_17":"o",
+                "ipify_18":"u",
+                "ipify_19":"d",
+                "ipify_20":"f",
+                "ipify_21":"l",
+                "ipify_22":"a",
+                "ipify_23":"r",
+                "ipify_24":"e",
+                "ipify_25":".",
+                "ipify_26":"c",
+                "ipify_27":"o",
+                "ipify_28":"m",
+                "ipify_29":"\n",
+                "ipify_30":"i",
+                "ipify_31":"p",
+                "ipify_32":"=",
+                "ipify_33":"2",
+                "ipify_34":"a",
+                "ipify_35":"0",
+                "ipify_36":"9",
+                "ipify_37":":",
+                "ipify_38":"b",
+                "ipify_39":"a",
+                "ipify_40":"c",
+                "ipify_41":"2",
+                "ipify_42":":",
+                "ipify_43":"4",
+                "ipify_44":"1",
+                "ipify_45":"f",
+                "ipify_46":"7",
+                "ipify_47":":",
+                "ipify_48":"1",
+                "ipify_49":"e",
+                "ipify_50":"1",
+                "ipify_51":":",
+                "ipify_52":":",
+                "ipify_53":"3",
+                "ipify_54":"0",
+                "ipify_55":":",
+                "ipify_56":"4",
+                "ipify_57":"f",
+                "ipify_58":"\n",
+                "ipify_59":"t",
+                "ipify_60":"s",
+                "ipify_61":"=",
+                "ipify_62":"1",
+                "ipify_63":"7",
+                "ipify_64":"0",
+                "ipify_65":"5",
+                "ipify_66":"3",
+                "ipify_67":"9",
+                "ipify_68":"8",
+                "ipify_69":"9",
+                "ipify_70":"9",
+                "ipify_71":"8",
+                "ipify_72":".",
+                "ipify_73":"0",
+                "ipify_74":"6",
+                "ipify_75":"1",
+                "ipify_76":"\n",
+                "ipify_77":"v",
+                "ipify_78":"i",
+                "ipify_79":"s",
+                "ipify_80":"i",
+                "ipify_81":"t",
+                "ipify_82":"_",
+                "ipify_83":"s",
+                "ipify_84":"c",
+                "ipify_85":"h",
+                "ipify_86":"e",
+                "ipify_87":"m",
+                "ipify_88":"e",
+                "ipify_89":"=",
+                "ipify_90":"h",
+                "ipify_91":"t",
+                "ipify_92":"t",
+                "ipify_93":"p",
+                "ipify_94":"s",
+                "ipify_95":"\n",
+                "ipify_96":"u",
+                "ipify_97":"a",
+                "ipify_98":"g",
+                "ipify_99":"=",
+                "ipify_100":"M",
+                "ipify_101":"o",
+                "ipify_102":"z",
+                "ipify_103":"i",
+                "ipify_104":"l",
+                "ipify_105":"l",
+                "ipify_106":"a",
+                "ipify_107":"/",
+                "ipify_108":"5",
+                "ipify_109":".",
+                "ipify_110":"0",
+                "ipify_111":" ",
+                "ipify_112":"(",
+                "ipify_113":"i",
+                "ipify_114":"P",
+                "ipify_115":"h",
+                "ipify_116":"o",
+                "ipify_117":"n",
+                "ipify_118":"e",
+                "ipify_119":";",
+                "ipify_120":" ",
+                "ipify_121":"C",
+                "ipify_122":"P",
+                "ipify_123":"U",
+                "ipify_124":" ",
+                "ipify_125":"i",
+                "ipify_126":"P",
+                "ipify_127":"h",
+                "ipify_128":"o",
+                "ipify_129":"n",
+                "ipify_130":"e",
+                "ipify_131":" ",
+                "ipify_132":"O",
+                "ipify_133":"S",
+                "ipify_134":" ",
+                "ipify_135":"1",
+                "ipify_136":"6",
+                "ipify_137":"_",
+                "ipify_138":"3",
+                "ipify_139":"_",
+                "ipify_140":"1",
+                "ipify_141":" ",
+                "ipify_142":"l",
+                "ipify_143":"i",
+                "ipify_144":"k",
+                "ipify_145":"e",
+                "ipify_146":" ",
+                "ipify_147":"M",
+                "ipify_148":"a",
+                "ipify_149":"c",
+                "ipify_150":" ",
+                "ipify_151":"O",
+                "ipify_152":"S",
+                "ipify_153":" ",
+                "ipify_154":"X",
+                "ipify_155":")",
+                "ipify_156":" ",
+                "ipify_157":"A",
+                "ipify_158":"p",
+                "ipify_159":"p",
+                "ipify_160":"l",
+                "ipify_161":"e",
+                "ipify_162":"W",
+                "ipify_163":"e",
+                "ipify_164":"b",
+                "ipify_165":"K",
+                "ipify_166":"i",
+                "ipify_167":"t",
+                "ipify_168":"/",
+                "ipify_169":"6",
+                "ipify_170":"0",
+                "ipify_171":"5",
+                "ipify_172":".",
+                "ipify_173":"1",
+                "ipify_174":".",
+                "ipify_175":"1",
+                "ipify_176":"5",
+                "ipify_177":" ",
+                "ipify_178":"(",
+                "ipify_179":"K",
+                "ipify_180":"H",
+                "ipify_181":"T",
+                "ipify_182":"M",
+                "ipify_183":"L",
+                "ipify_184":",",
+                "ipify_185":" ",
+                "ipify_186":"l",
+                "ipify_187":"i",
+                "ipify_188":"k",
+                "ipify_189":"e",
+                "ipify_190":" ",
+                "ipify_191":"G",
+                "ipify_192":"e",
+                "ipify_193":"c",
+                "ipify_194":"k",
+                "ipify_195":"o",
+                "ipify_196":")",
+                "ipify_197":" ",
+                "ipify_198":"V",
+                "ipify_199":"e",
+                "ipify_200":"r",
+                "ipify_201":"s",
+                "ipify_202":"i",
+                "ipify_203":"o",
+                "ipify_204":"n",
+                "ipify_205":"/",
+                "ipify_206":"1",
+                "ipify_207":"6",
+                "ipify_208":".",
+                "ipify_209":"3",
+                "ipify_210":" ",
+                "ipify_211":"M",
+                "ipify_212":"o",
+                "ipify_213":"b",
+                "ipify_214":"i",
+                "ipify_215":"l",
+                "ipify_216":"e",
+                "ipify_217":"/",
+                "ipify_218":"1",
+                "ipify_219":"5",
+                "ipify_220":"E",
+                "ipify_221":"1",
+                "ipify_222":"4",
+                "ipify_223":"8",
+                "ipify_224":" ",
+                "ipify_225":"S",
+                "ipify_226":"a",
+                "ipify_227":"f",
+                "ipify_228":"a",
+                "ipify_229":"r",
+                "ipify_230":"i",
+                "ipify_231":"/",
+                "ipify_232":"6",
+                "ipify_233":"0",
+                "ipify_234":"4",
+                "ipify_235":".",
+                "ipify_236":"1",
+                "ipify_237":"\n",
+                "ipify_238":"c",
+                "ipify_239":"o",
+                "ipify_240":"l",
+                "ipify_241":"o",
+                "ipify_242":"=",
+                "ipify_243":"D",
+                "ipify_244":"U",
+                "ipify_245":"S",
+                "ipify_246":"\n",
+                "ipify_247":"s",
+                "ipify_248":"l",
+                "ipify_249":"i",
+                "ipify_250":"v",
+                "ipify_251":"e",
+                "ipify_252":"r",
+                "ipify_253":"=",
+                "ipify_254":"0",
+                "ipify_255":"1",
+                "ipify_256":"0",
+                "ipify_257":"-",
+                "ipify_258":"d",
+                "ipify_259":"u",
+                "ipify_260":"s",
+                "ipify_261":"0",
+                "ipify_262":"1",
+                "ipify_263":"\n",
+                "ipify_264":"h",
+                "ipify_265":"t",
+                "ipify_266":"t",
+                "ipify_267":"p",
+                "ipify_268":"=",
+                "ipify_269":"h",
+                "ipify_270":"t",
+                "ipify_271":"t",
+                "ipify_272":"p",
+                "ipify_273":"/",
+                "ipify_274":"2",
+                "ipify_275":"\n",
+                "ipify_276":"l",
+                "ipify_277":"o",
+                "ipify_278":"c",
+                "ipify_279":"=",
+                "ipify_280":"I",
+                "ipify_281":"T",
+                "ipify_282":"\n",
+                "ipify_283":"t",
+                "ipify_284":"l",
+                "ipify_285":"s",
+                "ipify_286":"=",
+                "ipify_287":"T",
+                "ipify_288":"L",
+                "ipify_289":"S",
+                "ipify_290":"v",
+                "ipify_291":"1",
+                "ipify_292":".",
+                "ipify_293":"3",
+                "ipify_294":"\n",
+                "ipify_295":"s",
+                "ipify_296":"n",
+                "ipify_297":"i",
+                "ipify_298":"=",
+                "ipify_299":"p",
+                "ipify_300":"l",
+                "ipify_301":"a",
+                "ipify_302":"i",
+                "ipify_303":"n",
+                "ipify_304":"t",
+                "ipify_305":"e",
+                "ipify_306":"x",
+                "ipify_307":"t",
+                "ipify_308":"\n",
+                "ipify_309":"w",
+                "ipify_310":"a",
+                "ipify_311":"r",
+                "ipify_312":"p",
+                "ipify_313":"=",
+                "ipify_314":"o",
+                "ipify_315":"f",
+                "ipify_316":"f",
+                "ipify_317":"\n",
+                "ipify_318":"g",
+                "ipify_319":"a",
+                "ipify_320":"t",
+                "ipify_321":"e",
+                "ipify_322":"w",
+                "ipify_323":"a",
+                "ipify_324":"y",
+                "ipify_325":"=",
+                "ipify_326":"o",
+                "ipify_327":"f",
+                "ipify_328":"f",
+                "ipify_329":"\n",
+                "ipify_330":"r",
+                "ipify_331":"b",
+                "ipify_332":"i",
+                "ipify_333":"=",
+                "ipify_334":"o",
+                "ipify_335":"f",
+                "ipify_336":"f",
+                "ipify_337":"\n",
+                "ipify_338":"k",
+                "ipify_339":"e",
+                "ipify_340":"x",
+                "ipify_341":"=",
+                "ipify_342":"X",
+                "ipify_343":"2",
+                "ipify_344":"5",
+                "ipify_345":"5",
+                "ipify_346":"1",
+                "ipify_347":"9",
+                "ipify_348":"\n"
+            },
+            "settings":{
+                "block":false,
+                "blacklist":[],
+                "whitelist":[],
+                "blacklist_batches":[],
+                "whitelist_batches":[]
+            }
+        },
+        "ip":{
+            "info":{
+                "2a09:bac2:41f7:1e1::30:4f":{
+                    "batch1":{
+                        "time_submit":"Tue, 16 Jan 2024 09:56:40 GMT",
+                        "time_submit_parsed":"2024-01-16 09:56:40 00:00"
+                    }
+                }
+            },
+            "serialization":{
+                "2a09:bac2:41f7:1e1::30:4f":{}
+            }
+        },
+        "uag":{
+            "info":{
+                "Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Mobile/15E148 Safari/604.1":{
+                    "batch1":{
+                        "time_submit":"Tue, 16 Jan 2024 09:56:40 GMT",
+                        "time_submit_parsed":"2024-01-16 09:56:40 00:00"
+                    }
+                }
+            },
+            "serialization":{
+                "Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Mobile/15E148 Safari/604.1":{}
+            }
+        },
+        "checks":[],
+        "questionnaires_answers":[
+            {
+                "time_submit":"Tue, 16 Jan 2024 09:57:17 GMT",
+                "serialization":{
+                    "info":{
+                        "action":"Next",
+                        "access":1,
+                        "try":1,
+                        "index":0,
+                        "sequence":1,
+                        "element":"questionnaire"
+                    },
+                    "questions":[
+                        {
+                            "dropped":false,
+                            "index":0,
+                            "indexFull":"1",
+                            "name":"Age",
+                            "type":"mcq",
+                            "nameFull":"Age",
+                            "text":"What is your age? Please select the corresponding range.",
+                            "dependant":null,
+                            "repeat":null,
+                            "needed":null,
+                            "target":null,
+                            "times":null,
+                            "required":true,
+                            "answers":[
+                                "Under 18",
+                                "18-24",
+                                "25-34",
+                                "35-44",
+                                "45-54",
+                                "Over 54"
+                            ],
+                            "detail":null,
+                            "showDetail":null,
+                            "freeText":null
+                        },
+                        {
+                            "dropped":false,
+                            "index":1,
+                            "indexFull":"2",
+                            "name":"Gender",
+                            "type":"mcq",
+                            "nameFull":"Gender",
+                            "text":"What is your gender? Please select the corresponding answer.",
+                            "dependant":null,
+                            "repeat":null,
+                            "needed":null,
+                            "target":null,
+                            "times":null,
+                            "required":true,
+                            "answers":[
+                                "Male",
+                                "Female",
+                                "Prefer not to say"
+                            ],
+                            "detail":null,
+                            "showDetail":null,
+                            "freeText":null
+                        },
+                        {
+                            "dropped":false,
+                            "index":2,
+                            "indexFull":"3",
+                            "name":"Gaming Frequency",
+                            "type":"mcq",
+                            "nameFull":"Gaming Frequency",
+                            "text":"How often do you play video games?",
+                            "dependant":null,
+                            "repeat":null,
+                            "needed":null,
+                            "target":null,
+                            "times":null,
+                            "required":true,
+                            "answers":[
+                                "Every day",
+                                "A few times a week",
+                                "Once a month",
+                                "Rarely",
+                                "Never"
+                            ],
+                            "detail":null,
+                            "showDetail":null,
+                            "freeText":null
+                        },
+                        {
+                            "dropped":false,
+                            "index":3,
+                            "indexFull":"4",
+                            "name":"Reliance on Reviews",
+                            "type":"mcq",
+                            "nameFull":"Reliance on Reviews",
+                            "text":"How likely are you to write reviews for products purchased online?",
+                            "dependant":null,
+                            "repeat":null,
+                            "needed":null,
+                            "target":null,
+                            "times":null,
+                            "required":true,
+                            "answers":[
+                                "Always (for almost all products)",
+                                "Often (for 80% of products)",
+                                "Occasionally (for 50% of products)",
+                                "Rarely (for 20% of products)",
+                                "Never (I'm not interested in writing reviews)"
+                            ],
+                            "detail":null,
+                            "showDetail":null,
+                            "freeText":null
+                        },
+                        {
+                            "dropped":false,
+                            "index":4,
+                            "indexFull":"5",
+                            "name":"Trust in Reviews",
+                            "type":"mcq",
+                            "nameFull":"Trust in Reviews",
+                            "text":"How inclined are you to base the purchase of an online product on others' reviews?",
+                            "dependant":null,
+                            "repeat":null,
+                            "needed":null,
+                            "target":null,
+                            "times":null,
+                            "required":true,
+                            "answers":[
+                                "Very inclined (yes, I decisively base my choices)",
+                                "Quite inclined (yes, they influence my purchase decision)",
+                                "Moderately inclined (yes, I consider them but not only)",
+                                "Not very inclined (no, I consider other factors)",
+                                "Not at all inclined (no, they do not influence my purchase)"
+                            ],
+                            "detail":null,
+                            "showDetail":null,
+                            "freeText":null
+                        }
+                    ],
+                    "answers":{
+                        "Age_answer":"1",
+                        "Gender_answer":"0",
+                        "Gaming Frequency_answer":"0",
+                        "Reliance on Reviews_answer":"1",
+                        "Trust in Reviews_answer":"1"
+                    },
+                    "timestamps_start":[
+                        1705399006
+                    ],
+                    "timestamps_end":[
+                        1705399037.94
+                    ],
+                    "timestamps_elapsed":31.94000005722046,
+                    "accesses":1
+                }
+            },
+            {
+                "time_submit":"Tue, 16 Jan 2024 09:57:33 GMT",
+                "serialization":{
+                    "info":{
+                        "action":"Next",
+                        "access":1,
+                        "try":1,
+                        "index":1,
+                        "sequence":2,
+                        "element":"questionnaire"
+                    },
+                    "questions":[
+                        {
+                            "dropped":false,
+                            "index":0,
+                            "indexFull":"1",
+                            "name":"Check",
+                            "type":"mcq",
+                            "nameFull":"Check",
+                            "text":"Which of these is one of the most famous game series developed by Nintendo, where the main character has a red hat and a mustache?",
+                            "dependant":null,
+                            "repeat":null,
+                            "needed":null,
+                            "target":null,
+                            "times":null,
+                            "required":true,
+                            "answers":[
+                                "Halo",
+                                "Super Mario",
+                                "Call Of Duty",
+                                "Grand Theft Auto"
+                            ],
+                            "detail":null,
+                            "showDetail":null,
+                            "freeText":null
+                        }
+                    ],
+                    "answers":{
+                        "Check_answer":"1"
+                    },
+                    "timestamps_start":[
+                        1705399037.94
+                    ],
+                    "timestamps_end":[
+                        1705399053.674
+                    ],
+                    "timestamps_elapsed":15.733999967575073,
+                    "accesses":1
+                }
+            }
+        ],
+        "documents_answers":[],
+        "comments":[],
+        "logs":[],
+        "questionnaires":[
+            {
+                "index":0,
+                "name":null,
+                "name_pretty":null,
+                "description":null,
+                "position":"start",
+                "allow_back":true,
+                "type":"standard",
+                "questions":[
+                    {
+                        "dropped":false,
+                        "index":0,
+                        "indexFull":"1",
+                        "name":"Age",
+                        "type":"mcq",
+                        "nameFull":"Age",
+                        "text":"What is your age? Please select the corresponding range.",
+                        "dependant":null,
+                        "repeat":null,
+                        "needed":null,
+                        "target":null,
+                        "times":null,
+                        "required":true,
+                        "answers":[
+                            "Under 18",
+                            "18-24",
+                            "25-34",
+                            "35-44",
+                            "45-54",
+                            "Over 54"
+                        ],
+                        "detail":null,
+                        "showDetail":null,
+                        "freeText":null
+                    },
+                    {
+                        "dropped":false,
+                        "index":1,
+                        "indexFull":"2",
+                        "name":"Gender",
+                        "type":"mcq",
+                        "nameFull":"Gender",
+                        "text":"What is your gender? Please select the corresponding answer.",
+                        "dependant":null,
+                        "repeat":null,
+                        "needed":null,
+                        "target":null,
+                        "times":null,
+                        "required":true,
+                        "answers":[
+                            "Male",
+                            "Female",
+                            "Prefer not to say"
+                        ],
+                        "detail":null,
+                        "showDetail":null,
+                        "freeText":null
+                    },
+                    {
+                        "dropped":false,
+                        "index":2,
+                        "indexFull":"3",
+                        "name":"Gaming Frequency",
+                        "type":"mcq",
+                        "nameFull":"Gaming Frequency",
+                        "text":"How often do you play video games?",
+                        "dependant":null,
+                        "repeat":null,
+                        "needed":null,
+                        "target":null,
+                        "times":null,
+                        "required":true,
+                        "answers":[
+                            "Every day",
+                            "A few times a week",
+                            "Once a month",
+                            "Rarely",
+                            "Never"
+                        ],
+                        "detail":null,
+                        "showDetail":null,
+                        "freeText":null
+                    },
+                    {
+                        "dropped":false,
+                        "index":3,
+                        "indexFull":"4",
+                        "name":"Reliance on Reviews",
+                        "type":"mcq",
+                        "nameFull":"Reliance on Reviews",
+                        "text":"How likely are you to write reviews for products purchased online?",
+                        "dependant":null,
+                        "repeat":null,
+                        "needed":null,
+                        "target":null,
+                        "times":null,
+                        "required":true,
+                        "answers":[
+                            "Always (for almost all products)",
+                            "Often (for 80% of products)",
+                            "Occasionally (for 50% of products)",
+                            "Rarely (for 20% of products)",
+                            "Never (I'm not interested in writing reviews)"
+                        ],
+                        "detail":null,
+                        "showDetail":null,
+                        "freeText":null
+                    },
+                    {
+                        "dropped":false,
+                        "index":4,
+                        "indexFull":"5",
+                        "name":"Trust in Reviews",
+                        "type":"mcq",
+                        "nameFull":"Trust in Reviews",
+                        "text":"How inclined are you to base the purchase of an online product on others' reviews?",
+                        "dependant":null,
+                        "repeat":null,
+                        "needed":null,
+                        "target":null,
+                        "times":null,
+                        "required":true,
+                        "answers":[
+                            "Very inclined (yes, I decisively base my choices)",
+                            "Quite inclined (yes, they influence my purchase decision)",
+                            "Moderately inclined (yes, I consider them but not only)",
+                            "Not very inclined (no, I consider other factors)",
+                            "Not at all inclined (no, they do not influence my purchase)"
+                        ],
+                        "detail":null,
+                        "showDetail":null,
+                        "freeText":null
+                    }
+                ]
+            },
+            {
+                "index":1,
+                "name":null,
+                "name_pretty":null,
+                "description":null,
+                "position":"start",
+                "allow_back":true,
+                "type":"standard",
+                "questions":[
+                    {
+                        "dropped":false,
+                        "index":0,
+                        "indexFull":"1",
+                        "name":"Check",
+                        "type":"mcq",
+                        "nameFull":"Check",
+                        "text":"Which of these is one of the most famous game series developed by Nintendo, where the main character has a red hat and a mustache?",
+                        "dependant":null,
+                        "repeat":null,
+                        "needed":null,
+                        "target":null,
+                        "times":null,
+                        "required":true,
+                        "answers":[
+                            "Halo",
+                            "Super Mario",
+                            "Call Of Duty",
+                            "Grand Theft Auto"
+                        ],
+                        "detail":null,
+                        "showDetail":null,
+                        "freeText":null
+                    }
+                ]
+            }
+        ],
+        "documents":[
+            {
+                "index":0,
+                "params":{
+                    "task_type":"Main"
+                },
+                "id":"B005ZNWT4C",
+                "review_time":"2015-05-21 00:00:00",
+                "product_title":"Sega Hatsune Miku: Project Diva Extend for PSP (Japanese Language Import)",
+                "product_brand":"Sega",
+                "review_text":"Im a big Hatsune MIku fan and when i saw this at a cheap price i tapped the order button just to get it! two weeks later (i think) it came in the mail and i opened it and put it in my PSP and I really love it!!! tho its in japanese i don't really care about, i still play it! hoping to learn japanese in the future so i can understand what i am doing"
+            },
+            {
+                "index":1,
+                "params":{
+                    "task_type":"Main"
+                },
+                "id":"B00004SVUZ",
+                "review_time":"2007-08-09 00:00:00",
+                "product_title":"Star Trek: The Next Generation - Nintendo NES",
+                "product_brand":"ABSOLUTE VIDEO GAMES",
+                "review_text":"I've tried this game. You have to learn it first, but it's not too hard to learn. Once you've learned it (took me about 15 minutes) then it is easy, yet a challenge at the same time. The graphics are OK for a NES game, but I've seen much better on the NES. This game has almost all of the characters, except Doctor Crusher, and Counselor Troi, and they all serve a purpouse on the bridge. This game is quite complex for a NES game (I guess that's why the graphics aren't so good, because they had to make room to store the game)The game doesn't save your progress, however it has a password system (but don't worry, all the passcodes are 4 letters long, and are not hard to remember)  Get this game, the few dollars are worth it!"
+            },
+            {
+                "index":2,
+                "params":{
+                    "task_type":"Main"
+                },
+                "id":"B003TO59D2",
+                "review_time":"2011-01-28 00:00:00",
+                "product_title":"Theatre of War 2: Kursk 1943 [Download]",
+                "product_brand":"1C",
+                "review_text":"once i get past the first mission it QUITS like me with my first job. i cant even play on sand-box mode. please help!!!!!"
+            },
+            {
+                "index":3,
+                "params":{
+                    "task_type":"Main"
+                },
+                "id":"B01G6LXXWI",
+                "review_time":"2016-08-19 00:00:00",
+                "product_title":"amllbo [aori/fire Fly] (Splatoon series)Nintendo WiiU/ 3DS",
+                "product_brand":"Nintendo",
+                "review_text":"These are among the most nicely detailed amiibo I've seen so far.  Great use of multiple materials, that parts that should shine do and the parts that shouldn't don't.  I suspect that because the design of the characters is so simple they were more able to flesh out the details."
+            },
+            {
+                "index":4,
+                "params":{
+                    "task_type":"Main"
+                },
+                "id":"B0050SYWGU",
+                "review_time":"2011-10-21 00:00:00",
+                "product_title":"Rocksmith Guitar Bundle -Xbox 360",
+                "product_brand":"Ubisoft",
+                "review_text":"I have had this game for a few hours now, and I can already feel myself getting better. It comes with the guitar, two picks, a strap, a USB cord, and a regular guitar cord (for plugging into an amp). It's very easy to set up. You take it out, plug it in, and you're good to go. It takes you through a brief tutorial on how to play, and then tunes the strings, telling you how to do it. Before every song, it has you retune your guitar for that song, or makes sure your guitar is still in tune. Then you play. At first glance, it is very intimidating, especially if you're used to playing Rock Band or Guitar Hero. Stick with it, though. It gets easier as you go. As you get better, it introduces new techniques, and offers a \"challenge\" to better teach you how to play using those techniques. I am a beginner guitar player. I played a number of years ago, and didn't take formal lessons. I jumped right in and felt at home. You have two options; you can play your \"journey,\" where you practice a few songs, get a high enough score to qualify, then go perform them to move on. Your other option is to just jump into whatever song you wish. I found myself doing both. The bottom line is, if you were having second thoughts about buying this game, just go for it. If you want to learn how to play, you will. It really is wonderful. Yes, the guitar is a \"cheaper\" version, but if you're just starting to learn, you don't need anything better. And the good thing is, once you get better, you can buy a better guitar and use it for this game because it works with ANY GUITAR. It honestly is wonderful. You won't regret this purchase."
+            }
+        ],
+        "dimensions":[
+            {
+                "index":0,
+                "name":"Reliability",
+                "task_type":null,
+                "name_pretty":null,
+                "description":"The review is considered reliable, as opposed to reporting unreliable information",
+                "example":null,
+                "justification":null,
+                "url":null,
+                "pairwise":null,
+                "scale":{
+                    "type":"categorical",
+                    "instructions":null,
+                    "mapping":[
+                        {
+                            "index":0,
+                            "label":" Completely Disagree:",
+                            "description":"the review provides unreliable or untrustworthy information",
+                            "value":"-2",
+                            "separator":false
+                        },
+                        {
+                            "index":1,
+                            "label":"Partially Disagree:",
+                            "description":"the review has some unreliable information",
+                            "value":"-1",
+                            "separator":false
+                        },
+                        {
+                            "index":2,
+                            "label":"Neutral:",
+                            "description":"the review's reliability cannot be definitively determined",
+                            "value":"0",
+                            "separator":false
+                        },
+                        {
+                            "index":3,
+                            "label":"Partially Agree:",
+                            "description":"the review is mostly reliable",
+                            "value":"1",
+                            "separator":false
+                        },
+                        {
+                            "index":4,
+                            "label":" Completely Agree:",
+                            "description":"the review is entirely reliable and considered trustworthy",
+                            "value":"2",
+                            "separator":false
+                        }
+                    ],
+                    "multipleSelection":false
+                },
+                "style":{
+                    "type":"list",
+                    "position":"middle",
+                    "orientation":"vertical",
+                    "separator":null
+                },
+                "gold":true
+            },
+            {
+                "index":1,
+                "name":"Neutrality",
+                "task_type":null,
+                "name_pretty":null,
+                "description":"The review is expressed in objective terms, as opposed to resulting subjective or biased",
+                "example":null,
+                "justification":null,
+                "url":null,
+                "pairwise":null,
+                "scale":{
+                    "type":"categorical",
+                    "instructions":null,
+                    "mapping":[
+                        {
+                            "index":0,
+                            "label":" Completely Disagree:",
+                            "description":"the review is highly subjective or biased, providing unreliable information",
+                            "value":"-2",
+                            "separator":false
+                        },
+                        {
+                            "index":1,
+                            "label":"Partially Disagree:",
+                            "description":"the review has some elements of neutrality but also contains subjective or biased expressions",
+                            "value":"-1",
+                            "separator":false
+                        },
+                        {
+                            "index":2,
+                            "label":"Neutral:",
+                            "description":"the neutrality of the review cannot be definitively determined",
+                            "value":"0",
+                            "separator":false
+                        },
+                        {
+                            "index":3,
+                            "label":"Partially Agree:",
+                            "description":"the review is mostly expressed in objective terms but may have some subjective elements",
+                            "value":"1",
+                            "separator":false
+                        },
+                        {
+                            "index":4,
+                            "label":" Completely Agree:",
+                            "description":"the review is entirely neutral, expressed objectively without bias",
+                            "value":"2",
+                            "separator":false
+                        }
+                    ],
+                    "multipleSelection":false
+                },
+                "style":{
+                    "type":"list",
+                    "position":"middle",
+                    "orientation":"vertical",
+                    "separator":null
+                },
+                "gold":true
+            },
+            {
+                "index":2,
+                "name":"Precision",
+                "task_type":null,
+                "name_pretty":null,
+                "description":"The review is precise/specific, as opposed to vague",
+                "example":null,
+                "justification":null,
+                "url":null,
+                "pairwise":null,
+                "scale":{
+                    "type":"categorical",
+                    "instructions":null,
+                    "mapping":[
+                        {
+                            "index":0,
+                            "label":" Completely Disagree:",
+                            "description":"the review provides imprecise and vague information",
+                            "value":"-2",
+                            "separator":false
+                        },
+                        {
+                            "index":1,
+                            "label":"Partially Disagree:",
+                            "description":"the review contains some imprecise details and vagueness",
+                            "value":"-1",
+                            "separator":false
+                        },
+                        {
+                            "index":2,
+                            "label":"Neutral:",
+                            "description":"the review's precision cannot be definitively determined",
+                            "value":"0",
+                            "separator":false
+                        },
+                        {
+                            "index":3,
+                            "label":"Partially Agree:",
+                            "description":"the review is mostly precise, with some specific details",
+                            "value":"1",
+                            "separator":false
+                        },
+                        {
+                            "index":4,
+                            "label":" Completely Agree:",
+                            "description":"the review is entirely precise and considered trustworthy",
+                            "value":"2",
+                            "separator":false
+                        }
+                    ],
+                    "multipleSelection":false
+                },
+                "style":{
+                    "type":"list",
+                    "position":"middle",
+                    "orientation":"vertical",
+                    "separator":null
+                },
+                "gold":true
+            },
+            {
+                "index":3,
+                "name":"Completeness",
+                "task_type":null,
+                "name_pretty":null,
+                "description":"The review is complete as opposed to partial",
+                "example":null,
+                "justification":null,
+                "url":null,
+                "pairwise":null,
+                "scale":{
+                    "type":"categorical",
+                    "instructions":null,
+                    "mapping":[
+                        {
+                            "index":0,
+                            "label":" Completely Disagree:",
+                            "description":"the review is deficient in crucial details, presenting an incomplete overview",
+                            "value":"-2",
+                            "separator":false
+                        },
+                        {
+                            "index":1,
+                            "label":"Partially Disagree:",
+                            "description":"the review includes some details, but overall, it is incomplete",
+                            "value":"-1",
+                            "separator":false
+                        },
+                        {
+                            "index":2,
+                            "label":"Neutral:",
+                            "description":"the completeness of the review cannot be definitively determined",
+                            "value":"0",
+                            "separator":false
+                        },
+                        {
+                            "index":3,
+                            "label":"Partially Agree:",
+                            "description":"the review is mostly complete in providing necessary details",
+                            "value":"1",
+                            "separator":false
+                        },
+                        {
+                            "index":4,
+                            "label":" Completely Agree:",
+                            "description":"the review provides a comprehensive overview",
+                            "value":"2",
+                            "separator":false
+                        }
+                    ],
+                    "multipleSelection":false
+                },
+                "style":{
+                    "type":"list",
+                    "position":"middle",
+                    "orientation":"vertical",
+                    "separator":null
+                },
+                "gold":true
+            },
+            {
+                "index":4,
+                "name":"Informativeness",
+                "task_type":null,
+                "name_pretty":null,
+                "description":"The review allows deriving useful information as opposed to well-known facts and/or tautologies",
+                "example":null,
+                "justification":null,
+                "url":null,
+                "pairwise":null,
+                "scale":{
+                    "type":"categorical",
+                    "instructions":null,
+                    "mapping":[
+                        {
+                            "index":0,
+                            "label":" Completely Disagree:",
+                            "description":"the review lacks informative content, providing insufficient details",
+                            "value":"-2",
+                            "separator":false
+                        },
+                        {
+                            "index":1,
+                            "label":"Partially Disagree:",
+                            "description":"the review has some informative elements, but overall, it is not fully detailed",
+                            "value":"-1",
+                            "separator":false
+                        },
+                        {
+                            "index":2,
+                            "label":"Neutral:",
+                            "description":"the informativeness of the review cannot be definitively determined",
+                            "value":"0",
+                            "separator":false
+                        },
+                        {
+                            "index":3,
+                            "label":"Partially Agree:",
+                            "description":"the review is mostly informative, offering relevant details",
+                            "value":"1",
+                            "separator":false
+                        },
+                        {
+                            "index":4,
+                            "label":" Completely Agree:",
+                            "description":"the review is entirely informative, delivering a comprehensive and detailed analysis",
+                            "value":"2",
+                            "separator":false
+                        }
+                    ],
+                    "multipleSelection":false
+                },
+                "style":{
+                    "type":"list",
+                    "position":"middle",
+                    "orientation":"vertical",
+                    "separator":null
+                },
+                "gold":true
+            },
+            {
+                "index":5,
+                "name":"Confidence",
+                "task_type":null,
+                "name_pretty":null,
+                "description":"How confident do you feel about the answers you provided? Please select a corresponding number",
+                "example":"0 means completely not confident and 100 means sure",
+                "justification":{
+                    "text":"Write at least 10 words justifying the entered value.",
+                    "min_words":10
+                },
+                "url":null,
+                "pairwise":null,
+                "scale":{
+                    "type":"interval",
+                    "instructions":null,
+                    "min":"",
+                    "max":100,
+                    "step":1
+                },
+                "style":{
+                    "type":"list",
+                    "position":"bottom",
+                    "orientation":"vertical",
+                    "separator":null
+                },
+                "gold":null
+            }
+        ]
+    }
+]
