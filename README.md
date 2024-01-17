@@ -19,3 +19,6 @@ Genera un file .csv in cui vengono accoppiate 5 recensioni casuali ad ognuno dei
 
 # COSE DA FARE
 calcolare il tempo di lettura delle istruzioni generali e del task, e calcolare il tempo per rispondere ad un questionario con 5 recensioni brevi e vederese qualcuno ci ha messo meno
+
+
+analisi confrontata con il prezzo ? (in teoria non è tra i dati che ci siamo presi per le recensioni, se non è così lascia perdere)
