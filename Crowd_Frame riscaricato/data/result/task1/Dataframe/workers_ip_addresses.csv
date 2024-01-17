@@ -1,6 +1,7 @@
 worker_id,paid,task_name,batch_name,unit_id,ip_address,time_submit,time_submit_parsed
 7GFH0CXPHPTSPX,True,task1,batch1,unit_1,212.24.13.249,"Tue, 16 Jan 2024 09:34:36 GMT",2024-01-16 09:34:36 00:00
 B0ARNFCRSNEXAS,True,task1,batch1,unit_5,2a09:bac3:41f3:18fa::27d:fa,"Tue, 16 Jan 2024 15:03:44 GMT",2024-01-16 15:03:44 00:00
+CNZQBVRXLWYZG8,True,task1,batch1,unit_12,176.206.252.78,"Wed, 17 Jan 2024 20:26:42 GMT",2024-01-17 20:26:42 00:00
 DLNY6ZIJOABZLJ,True,task1,batch1,unit_2,93.150.249.20,"Wed, 17 Jan 2024 14:51:51 GMT",2024-01-17 14:51:51 00:00
 HAA3KNPKCB5DSG,True,task1,batch1,unit_11,2001:1c03:4111:fb00:3881:12e4:a508:d4f4,"Tue, 16 Jan 2024 18:24:23 GMT",2024-01-16 18:24:23 00:00
 ISGHMQO0AXKFXS,True,task1,batch1,unit_3,2a09:bac2:41f9:187::27:d6,"Wed, 17 Jan 2024 15:23:58 GMT",2024-01-17 15:23:58 00:00
