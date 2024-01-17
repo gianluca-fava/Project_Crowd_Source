@@ -1,0 +1,36 @@
+[
+    {
+        "source_path":"result/task1/Data/39CURHV3EATPQ0.json",
+        "source_data":"Crowd_Frame-task1_batch1_Data",
+        "source_acl":"Crowd_Frame-task1_batch1_ACL",
+        "source_log":"Crowd_Frame-task1_batch1_Logger",
+        "data_items":0,
+        "task":{
+            "task_name":"task1",
+            "batch_name":"batch1",
+            "unit_id":"unit_0",
+            "try_last":"1",
+            "time_submit":"Tue, 16 Jan 2024 18:29:37 GMT",
+            "time_submit_parsed":"2024-01-16 18:29:37 00:00"
+        },
+        "worker":{
+            "identifier":"39CURHV3EATPQ0"
+        },
+        "ip":{
+            "info":{},
+            "serialization":{}
+        },
+        "uag":{
+            "info":{},
+            "serialization":{}
+        },
+        "checks":[],
+        "questionnaires_answers":[],
+        "documents_answers":[],
+        "comments":[],
+        "logs":[],
+        "questionnaires":{},
+        "documents":{},
+        "dimensions":{}
+    }
+]
